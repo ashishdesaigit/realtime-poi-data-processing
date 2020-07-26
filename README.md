@@ -42,7 +42,8 @@ List can be found here ( https://www.confluent.io/hub/kafka-connectors-3 )
 - Java 
 - Spring Boot 
 - MQTT / Websocket / HTTP 
-- Apache Streams API to produce on `poi-unprocessed-topic`
+- Apache Streams API to produce on `poi-unprocessed-topic` 
+- Serializer Format : protobuf / Json  
 - Containerised application
 - metrics endpoints configured 
 - logstash configured 
@@ -60,6 +61,7 @@ POI consumer
 - Spring app 
 - Apache Streams API  to consume `poi-unprocessed-topic` and produce on `poi-processed-topic`
 - configured for kafka cluster ( app-name , consumer-group-id )
+- Deserializer Format : protobuf / Json  
 - metrics data endpoints configured 
 - logstash configured 
 - containerized 
