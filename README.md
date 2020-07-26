@@ -28,7 +28,7 @@ Since we are using kafka data connectors - we need to choose from supported data
 List can be found here ( https://www.confluent.io/hub/kafka-connectors-3 )
 
 
-### List Components
+### List Of Components
 1. POI Producer 
 2. Stream Processor
 3. POI consumer
