@@ -3,8 +3,8 @@ POI data streaming and processing in real time.
 
 Here is the overall solution approach:
 
-![Alt text](./overview.svg)
-<img src="./doc/overview.svg">
+![Alt text](./docs/overview.svg)
+<img src="./docs/overview.svg">
 
 ### User cases Considered :
 
@@ -23,7 +23,7 @@ So serialiser and deserialiser should have forward and backward compatibilities.
 - Processed PoI data gets saved in Database layer in the same format. ( Same schema )
 
 ### Constraints :
-- Database selection for  'Processed Data Sink' component. This is an informed decision.
+- Database selection for  `Processed Data Sink` component. This is an informed decision.
 Since we are using kafka data connectors - we need to choose from supported databased.
 List can be found here ( https://www.confluent.io/hub/kafka-connectors-3 )
 
@@ -83,3 +83,15 @@ System Monitoring Dashboard -
 
 POI Store 
 - Cassandra Cluster 
+
+PoI Record
+````json
+{
+"id" : 435465,
+"name" : "Super Petrol Pump",
+"category" : "Gas Station",
+"description" : "this is a petrol pump",
+"latitude" : 19.076090,
+"longitude" : 72.877426,
+"timestamp" : 1595740447
+}
