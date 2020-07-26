@@ -95,7 +95,7 @@ PoI Object
 "location" : {
    "latitude" : 19.076090,
    "longitude" : 72.877426
-}
+},
 "timestamp" : 1595740447,
 "base64encodedImage" : "bhdsjbcjsdc21313xncbmxbmx"
 }
