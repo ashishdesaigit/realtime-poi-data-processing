@@ -24,7 +24,7 @@ So serialiser and deserialiser should have forward and backward compatibilities.
 
 ### Constraints :
 - Database selection for  `Processed Data Sink` component. This is an informed decision.
-Since we are using kafka data connectors - we need to choose from supported databased.
+Since we are using kafka data connectors - we need to choose from supported databases.
 List can be found here ( https://www.confluent.io/hub/kafka-connectors-3 )
 
 
@@ -42,7 +42,7 @@ List can be found here ( https://www.confluent.io/hub/kafka-connectors-3 )
 - Java 
 - Spring Boot 
 - MQTT / Websocket / HTTP 
-- Apache Streams API to produce on `poi-unprocessed-topic` 
+- Apache Kafka Streams API to produce on `poi-unprocessed-topic` 
 - Serializer Format : protobuf / Json  
 - Containerised application
 - metrics endpoints configured 
@@ -59,7 +59,7 @@ Stream Processor
 POI consumer
 - Java
 - Spring app 
-- Apache Streams API  to consume `poi-unprocessed-topic` and produce on `poi-processed-topic`
+- Apache Kafka Streams API  to consume `poi-unprocessed-topic` and produce on `poi-processed-topic`
 - configured for kafka cluster ( app-name , consumer-group-id )
 - Deserializer Format : protobuf / Json  
 - metrics data endpoints configured 
