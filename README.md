@@ -84,14 +84,18 @@ System Monitoring Dashboard -
 POI Store 
 - Cassandra Cluster 
 
-PoI Record
+PoI Object
 ````json
 {
 "id" : 435465,
+"sourceId" : "car_pune_1234",
 "name" : "Super Petrol Pump",
 "category" : "Gas Station",
 "description" : "this is a petrol pump",
-"latitude" : 19.076090,
-"longitude" : 72.877426,
-"timestamp" : 1595740447
+"location" : {
+   "latitude" : 19.076090,
+   "longitude" : 72.877426
+}
+"timestamp" : 1595740447,
+"base64encodedImage" : "bhdsjbcjsdc21313xncbmxbmx"
 }
