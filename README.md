@@ -4,7 +4,7 @@ POI data streaming and processing in real time.
 Here is the overall solution approach:
 
 ![Alt text](./docs/overview.svg)
-<img src="./docs/overview.svg">
+
 
 ### User cases Considered :
 
